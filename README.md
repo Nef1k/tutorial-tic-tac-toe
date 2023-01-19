@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Created according to [this](https://reactjs.org/tutorial/tutorial.html) tutorial.
 
-![Tic Tac Toe!](https://i.imgur.com/Me46XfW.png "Tic Tac Toe")
+![Tic Tac Toe!](https://i.imgur.com/YbQF0aJ.png "Tic Tac Toe")
 
 ## Available Scripts
 
