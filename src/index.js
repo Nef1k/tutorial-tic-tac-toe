@@ -137,12 +137,10 @@ class Game extends React.Component {
         });
 
         let status;
-        if (isGameEnd) {
-            if (winner) {
-                status = 'Winner is ' + winner;
-            } else {
-                status = 'Draw!';
-            }
+        if (winner) {
+            status = 'Winner is ' + winner;
+        } else if (!winner && isGameEnd){
+            status = 'Draw!';
         } else {
             status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         }
